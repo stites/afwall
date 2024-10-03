@@ -774,7 +774,7 @@ public class G extends Application implements Application.ActivityLifecycleCallb
 
 
     public static boolean isDonate() {
-        return BuildConfig.APPLICATION_ID.equals("dev.ukanth.ufirewall.donate");
+        return true;
     }
 
     public static boolean isDoKey(Context ctx) {
